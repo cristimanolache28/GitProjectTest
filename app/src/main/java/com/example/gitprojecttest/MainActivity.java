@@ -21,16 +21,22 @@ public class MainActivity extends AppCompatActivity {
         btnSingIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                openSingIn();
             }
         });
 
         btnBtnSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                openSingUp();
             }
         });
 
+    }
+
+    private void openSingUp() {
+    }
+
+    private void openSingIn() {
     }
 }
