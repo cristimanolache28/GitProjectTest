@@ -16,6 +16,7 @@ public class Operations extends AppCompatActivity {
 
         sum(a, b);
         dif(a, b);
+        imul(a, b);
 
     }
 
