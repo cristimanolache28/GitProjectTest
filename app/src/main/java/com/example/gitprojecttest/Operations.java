@@ -14,9 +14,21 @@ public class Operations extends AppCompatActivity {
         int a = 10;
         int b = 5;
 
-        sum(a, b);
-        dif(a, b);
-        imul(a, b);
+        if(a > b)
+        {
+            sum(a, b);
+
+            dif(a, b);
+
+            imul(a, b);
+        }
+        else
+        {
+            System.out.println("Ceva a mers prost");
+        }
+
+
+
 
     }
 
