@@ -14,7 +14,7 @@ public class Operations extends AppCompatActivity {
         int a = 10;
         int b = 5;
 
-        if(a > b)
+        if(a > b && a != 0)
         {
             sum(a, b);
 
@@ -24,7 +24,7 @@ public class Operations extends AppCompatActivity {
         }
         else
         {
-            System.out.println("Ceva a mers prost");
+            System.out.println("Ceva a mers prost.");
         }
 
 
