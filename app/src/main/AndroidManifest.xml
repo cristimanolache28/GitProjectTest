@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GitProjectTest">
-        <activity android:name=".SingIn"></activity>
+        <activity android:name=".Operations"></activity>
+        <activity android:name=".SingIn" />
         <activity android:name=".SingUp" />
         <activity android:name=".MainActivity">
             <intent-filter>
