@@ -14,6 +14,8 @@ public class Operations extends AppCompatActivity {
         int a = 10;
         int b = 5;
 
+        sum(a, b);
+
     }
 
     public static int sum(int nr1, int nr2)
