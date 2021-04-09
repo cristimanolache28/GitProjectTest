@@ -26,5 +26,12 @@ public class Operations extends AppCompatActivity {
         return nr1 - nr2;
     }
 
+    public static int imul(int nr1, int nr2)
+    {
+        return nr1 * nr2;
+    }
+
+
+
 
 }
