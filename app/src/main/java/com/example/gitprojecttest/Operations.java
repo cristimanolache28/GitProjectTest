@@ -15,6 +15,7 @@ public class Operations extends AppCompatActivity {
         int b = 5;
 
         sum(a, b);
+        dif(a, b);
 
     }
 
