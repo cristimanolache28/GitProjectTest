@@ -14,6 +14,8 @@ public class Operations extends AppCompatActivity {
         int a = 10;
         int b = 5;
 
+        String owner = "Manolache Cristian";
+
         if(a > b && a != 0)
         {
             sum(a, b);
@@ -26,6 +28,8 @@ public class Operations extends AppCompatActivity {
         {
             System.out.println("Ceva a mers prost.");
         }
+
+        getName(owner);
 
 
 
@@ -45,6 +49,11 @@ public class Operations extends AppCompatActivity {
     public static int imul(int nr1, int nr2)
     {
         return nr1 * nr2;
+    }
+
+    public static String getName(String name)
+    {
+        return "Owner's name is: " + name;
     }
 
 

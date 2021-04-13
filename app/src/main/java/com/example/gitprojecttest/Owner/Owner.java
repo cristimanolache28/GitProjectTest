@@ -5,6 +5,9 @@ public class Owner {
     private String address;
     private double budget;
 
+    public Owner() {
+    }
+
     public Owner(String name, String address, double budget) {
         this.name = name;
         this.address = address;
