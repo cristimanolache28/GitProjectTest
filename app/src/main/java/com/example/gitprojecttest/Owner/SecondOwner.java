@@ -1,5 +1,12 @@
 package com.example.gitprojecttest.Owner;
 
 public class SecondOwner {
-    pr
+    private String secondOwner;
+    private String passwordOwner;
+
+    private void showSecondOwner()
+    {
+
+    }
+
 }
